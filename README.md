@@ -9,6 +9,8 @@ I will use a Terraform workflow to configure my Kubernetes cluster.
 
 Containers have great potential for IoT applications. Raspberry Pi based clusters could be very useful for testing and learning concepts such as microservices, application clustering, container networking and container orchestration. In this article, I've tried to cover the hardware and software configuration details to help you build your own Raspberry cluster.
 
+![infra, the Kubernetes infra](images/clustk8s.jpg)
+
 ## Usage
 
 Show this link :
