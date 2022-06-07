@@ -1,10 +1,10 @@
 apiVersion: cert-manager.io/v1 
 kind: Certificate
 metadata:
-  name: kub.techlabnews.com-cert
+  name: kub.techlabnews-com-cert
   namespace: traefik 
 spec:
-  secretName: kub.techlabnews-cert-secret
+  secretName: kub.techlabnews-com-cert-secret
   isCA: true
   privateKey:
     algorithm: RSA
@@ -18,5 +18,5 @@ spec:
     - kub.techlabnews.com 
     - '*.kub.techlabnews.com'
   issuerRef:
-    name: kub.techlabnews-ca-issuer
+    name: kub.techlabnews-ca-issuer 
     kind: ClusterIssuer
